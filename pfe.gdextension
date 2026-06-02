@@ -4,11 +4,11 @@ compatibility_minimum = 4.1
 reloadable = true
 
 [libraries]
-linux.debug.x86_64 =     "res://../rust/target/debug/librust.so"
-linux.release.x86_64 =   "res://../rust/target/release/librust.so"
-windows.debug.x86_64 =   "res://../rust/target/debug/rust.dll"
-windows.release.x86_64 = "res://../rust/target/release/rust.dll"
-macos.debug =            "res://../rust/target/debug/librust.dylib"
-macos.release =          "res://../rust/target/release/librust.dylib"
-macos.debug.arm64 =      "res://../rust/target/debug/librust.dylib"
-macos.release.arm64 =    "res://../rust/target/release/librust.dylib"
+linux.debug.x86_64 =     "res://../rust/target/debug/libproject_fractured_eclipse.so"
+linux.release.x86_64 =   "res://../rust/target/release/libproject_fractured_eclipse.so"
+windows.debug.x86_64 =   "res://../rust/target/debug/project_fractured_eclipse.dll"
+windows.release.x86_64 = "res://../rust/target/release/project_fractured_eclipse.dll"
+macos.debug =            "res://../rust/target/debug/libproject_fractured_eclipse.dylib"
+macos.release =          "res://../rust/target/release/libproject_fractured_eclipse.dylib"
+macos.debug.arm64 =      "res://../rust/target/debug/libproject_fractured_eclipse.dylib"
+macos.release.arm64 =    "res://../rust/target/release/libproject_fractured_eclipse.dylib"
