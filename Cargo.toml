@@ -1,0 +1,11 @@
+[package]
+name = "project_fractured_eclipse"
+version = "0.1.0"
+edition = "2024"
+authors = ["Jakacraft <jakacraftyt@gmail.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+godot = "0.5.3"
