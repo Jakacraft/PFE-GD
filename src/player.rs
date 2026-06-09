@@ -97,7 +97,7 @@ impl ICharacterBody3D for Player {
         self.pitch = self.pitch.clamp(self.min_pitch, self.max_pitch);
 
         let yaw = self.yaw;
-        let pitch = self.pitch;
+        let _pitch = self.pitch;
         self.base_mut().set_rotation(Vector3::new(0.0, yaw, 0.0));
     }
 }
