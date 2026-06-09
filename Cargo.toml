@@ -1,6 +1,6 @@
 [package]
 name = "project_fractured_eclipse"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Jakacraft <jakacraftyt@gmail.com>"]
 
@@ -9,3 +9,5 @@ crate-type = ["cdylib"]
 
 [dependencies]
 godot = "0.5.3"
+steamworks = "0.13.1"
+once_cell = "1.21.4"
